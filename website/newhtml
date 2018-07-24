@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,15 +5,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=no">
   <title>Innovating Romania</title>
-  <meta name="description" content="Developing an infrastructure for electrical charging stations">
-  <meta name="keywords" content="electrical charging stations">
+  <meta name="description" content="Tesla Fastcharging .....">
+  <meta name="keywords" content="tesla Fastcharging, alt cuvant, alta scurta fraza, etc.">
 	<meta name="author" content="Osain Elena">
   <meta name="robots" content="index, follow">
   <link rel="shortcut icon" href="images/favico.ico">
   <link rel="stylesheet" href="bootstrap-4.1.2-dist/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="bootstrap-4.1.2-dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Contrail+One|Slabo+27px|Markazi+Text|Merienda|Orbitron|Kanit|Roboto+Condensed" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Contrail+One|Indie+Flower|Merienda|Orbitron|Kanit|Roboto+Condensed" rel="stylesheet">
 
   <script type="text/javascript" src="java/text.js"></script>
 
@@ -22,36 +21,39 @@
 <body>
   <div id="container">
 
-
-
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12">
 
         <header>
-          <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <h1 class="navbar-brand">Innovating Romania</h1>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
             <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse topnav" id="navbarNav">
+          </button>-->
+          <div class="topnav"> <!--id="navbarNav"-->
             <ul class="navbar-nav">
               <li class="nav-item active">
-                <a class="nav-link" href="#">Home Page</a>
+                <a class="active" href="">Home Page</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#how2">Our Goals</a>
+                <a href="#how2">Our Goals</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#q&a">Q&A</a>
+                <a href="#q&a">Q&A</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#foot">Contact Us</a>
+                <a href="#foot">Contact Us</a>
               </li>
             </ul>
           </div>
-
         </nav>
       </header>
 
+    </div>
+  </div>
+</div>
 
 
 
@@ -69,7 +71,7 @@
 
 <div class="container">
 <div class="row">
-  <div class="col-sm-6 col-md-4">
+  <div class="col-sm-4">
     <h4 class="onlylist" id="firstli"> 1.Durability</h4>
 
     <article>
@@ -80,7 +82,7 @@
     </article>
   </div>
 
-  <div class="col-sm-6 col-md-4">
+  <div class="col-sm-4">
     <h4 class="onlylist"> 2.Safety</h4>
     <article>
       <section>
@@ -90,7 +92,7 @@
   </div>
 
 
-  <div class="col-sm-6 col-md-4">
+  <div class="col-sm-4">
     <h4 class="onlylist"> 3.Cost</h4>
     <article>
       <section>
@@ -98,13 +100,12 @@
       </section>
     </article>
   </div>
-
-
-    <div class="pic4 hidden-sm"><img src="images/pic4.jpg" alt="Model S Construction" class="central"></div>
-
 </div>
 </div>
 
+<div class="container">
+<div class="pic4"><img src="images/pic4.jpg" alt="Model S Construction" class="central"></div>
+</div>
 
 
 <div class="container">
@@ -128,7 +129,7 @@
 </div>
 </div>
 </div>
-<div class="pic5 hidden-sm"><img src="images/pic5.jpg" class="poza5"></div>
+<div class="pic5"><img src="images/pic5.jpg" class="poza5"></div>
 
 
 <div class="container">
@@ -153,8 +154,6 @@
 </div>
 </div>
 
-<img src="images/img7.jpg" alt="Charging station" class="img7 hidden-sm">
-
 <div class="container">
   <img src="images/rompic.png" alt="Romanian flag" class="image">
   <div class="overlay">
@@ -173,7 +172,7 @@
 </div>
 </div>
 </div>
-<div class="pic6 hidden-sm"><img src="images/pic6.jpg" alt="Electricla charging stations" class="ultima hidden-sm"></div>
+<div class="pic6"><img src="images/pic6.jpg" alt="Electricla charging stations" class="ultima"></div>
 
 <div class="container">
   <img src="images/rompic.png" alt="Romanian flag" class="image">
@@ -195,10 +194,7 @@
 <p class="pquestions"> "The fact that Romania is extremely resourceful in both electrical and solar energy, it will be very easy to have those stations implemented. As well as that, Romania will eventually have to make this switch to a healthier, non pollutant lifestyle."</p>
 </div>
 
-<h6 id="contact">/Contact Info</h6>
 <footer class="footer" id="foot"> Should you have any further questions feel free to contact me at <a href="mailto:osainelena@gmail.com">osainelena@gmail.com!</footer></a>
-
-
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
